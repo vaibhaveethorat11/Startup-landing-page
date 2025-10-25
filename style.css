@@ -1,0 +1,31 @@
+body{
+    background-color: whitesmoke;
+    justify-content: center;
+    display: flex;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+
+}
+.container{ 
+    position: absolute;
+    color: rgb(21, 5, 88);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: azure;
+}
+ul li{
+    display: flex;
+    float: left;
+}
+ul li a{
+    display: block;
+    padding: 14px 16px;
+
+}
